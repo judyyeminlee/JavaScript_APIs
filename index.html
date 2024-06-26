@@ -12,30 +12,24 @@
         justify-content: center;
         align-items: center;
         text-align: center;
+        background-color: #333;
+        color: #ccc;
       "
     >
       <div>
         <h1>JavaScript APIs</h1>
-        <p>
-          Open the Browser Console to view your work (Right-Click => Inspect or
-          fn+F12)
-        </p>
+        <p id="feedback"></p>
         <div id="inputContainer">
           <label for="searchWord">Giphy Search:</label>
-          <input style="margin: 2rem" type="text" id="searchWord" />
+          <input style="margin: 1rem" type="text" id="searchWord" />
           <button id="submitSearch">Giphy by Search</button>
         </div>
 
         <div id="imageContainer" style="max-width: 680px">
-          <img
-            src="#"
-            alt="Giphy Selection"
-            style="width: 100%; height: auto"
-          />
+          <img src="" alt="Giphy Selection" style="width: 100%; height: auto" />
         </div>
       </div>
     </main>
-
     <script src="app.js"></script>
   </body>
 </html>
